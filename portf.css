@@ -1,0 +1,102 @@
+.my-title
+{
+    color: white;
+    font-size: 90px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    
+    
+
+    
+}
+.my-description{
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+
+
+}
+.home:hover, .about:hover, .projects:hover, .contact:hover{
+    color: rgb(94, 94, 201);
+}
+.home:active, .about:active, .projects:active, .contact:active{
+    opacity: 0.15;
+    transition: opacity 0.15s;
+}
+.name{
+    color: blue;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+    float: left;
+    margin-top: 10px;
+}
+.name:hover{
+    color: rgb(94, 94, 201);
+}
+.info-buttons{
+    color: blue;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    float:right;
+    margin-top: 10px;
+    transition: opacity 0.15s;
+}
+.round-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+    margin-top: 0;
+    border-color: black;
+    border-style: black;
+    border-width: 10px;
+
+}
+.home{
+    margin-right: 20px;
+}
+
+.about{
+    margin-right: 20px;
+}
+.projects{
+    margin-right: 20px;
+}
+
+.contact{
+    margin-right: 20px;
+}
+.about-me{
+    display: inline-block;
+    font-size: 18px;
+    width: 500px;
+    background-color:bisque;
+    color: black;
+    margin-left: 10px;
+    text-align: center;
+
+
+
+
+}
+.home-page{
+    margin-bottom: 100px;
+}
+.about-sec{
+    margin-top: 200px;
+}
+.part-image{
+    display: inline-block;
+}
